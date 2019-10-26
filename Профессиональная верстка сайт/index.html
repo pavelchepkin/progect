@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/afdc7aa636.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="font-awesome.min.css">
 </head>
 
 <body>
     <div class="header">
         <div class="container header-flex">
             <div class="header__left">
-                <a href="#" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAND</a>
+                <a href="#" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN <span class="logo_r">d</span></a>
                 <form action="#" class="header__form">
-                    <div class="browse">Browse</div>
-                    <input type="text">
+                    <a href="#">
+                        <div class="browse shadowBox">Browse</div>
+                    </a>
+                    <input class="inputHead" placeholder="   Search for Item..." type="text">
                     <button type="submit"><i class="fas fa-search"></i></button>
                 </form>
             </div>
             <div class="header__right">
-                <img class="header__cart" src="img/cart.svg" alt="cart">
-                <a href="#" class="button">My Account</a>
+                <a class="header__cart_a" href="#"><img class="header__cart" src="img/cart.svg" alt="cart"></a>
+                <a href="#" class="button shadowBox">My Account</a>
             </div>
         </div>
     </div>
@@ -43,11 +46,155 @@
         <div class="container promo-content">
             <div class="promo__text">
                 <h2 class="promo__h2">THE BRAND</h2>
-                <h3 class="promo__h3">OF LUXERIOUS FASHION</h3>
+                <h3 class="promo__h3">OF LUXERIOUS <span class="promo__h3_r">FASHION</span></h3>
             </div>
         </div>
     </div>
+    <!-- нужно дописать классы ссылкам + эффекты-->
+    <div class="offers_line">
+        <div>
+            <a href="#">
+                <div class="for_men shadowBox">
+                    <div class="for_men_text"><span class="offer_t_up">hOT dEAL</span><br>
+                        <span class="offer_t_down">FOR MEN</span></div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="accesories shadowBox">
+                    <div class="for_men_text"><span class="offer_t_up">LUXIROUS & trendy</span><br>
+                        <span class="offer_t_down">ACCESORIES</span></div>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <div class="women shadowBox">
+                    <div class="for_men_text"><span class="offer_t_up">30% offer</span><br>
+                        <span class="offer_t_down">women</span></div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="for_kids shadowBox">
+                    <div class="for_men_text"><span class="offer_t_up">new arrivals</span><br>
+                        <span class="offer_t_down">FOR kids</span></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="fetured_items">
+        <div class="Fetured_title">
+            <div class="Fetured_text_up">Fetured Items</div><br>
+            <div class="Fetured_text_down">Shop for items based on what we featured in this week</div>
+        </div>
+    </div>
+    <div class="Fetured_line">
+        <!-- нужно дописать классы ссылкам + эффекты-->
+        <div class="Fetured_box">
+            <a class="a_prod" href="#">
+                <div class="product_box shadowBox">
+                    <img src="img/Layer_2.jpg" alt="img">
+                    <div class="prod__name">Mango People T-shirt</div>
+                    <div class="prod__price">$52.00</div>
+                </div>
+            </a>
+            <a class="a_prod" href="#">
+                <div class="product_box shadowBox">
+                    <img src="img/Layer_3.jpg" alt="img">
+                    <div class="prod__name">Mango People T-shirt</div>
+                    <div class="prod__price">$52.00</div>
+                </div>
+            </a>
+            <a class="a_prod" href="#">
+                <div class="product_box shadowBox">
+                    <img src="img/Layer_4.jpg" alt="img">
+                    <div class="prod__name">Mango People T-shirt</div>
+                    <div class="prod__price">$52.00</div>
+                </div>
+            </a>
+            <a class="a_prod" href="#">
+                <div class="product_box shadowBox">
+                    <img src="img/Layer_5.jpg" alt="img">
+                    <div class="prod__name">Mango People T-shirt</div>
+                    <div class="prod__price">$52.00</div>
+                </div>
+            </a>
+            <a class="a_prod" href="#">
+                <div class="product_box shadowBox">
+                    <img src="img/Layer_6.jpg" alt="img">
+                    <div class="prod__name">Mango People T-shirt</div>
+                    <div class="prod__price">$52.00</div>
+                </div>
+            </a>
+            <a class="a_prod" href="#">
+                <div class="product_box shadowBox">
+                    <img src="img/Layer_7.jpg" alt="img">
+                    <div class="prod__name">Mango People T-shirt</div>
+                    <div class="prod__price">$52.00</div>
+                </div>
+            </a>
+            <a class="a_prod" href="#">
+                <div class="product_box shadowBox">
+                    <img src="img/Layer_8.jpg" alt="img">
+                    <div class="prod__name">Mango People T-shirt</div>
+                    <div class="prod__price">$52.00</div>
+                </div>
+            </a>
+            <a class="a_prod" href="#">
+                <div class="product_box shadowBox">
+                    <img src="img/Layer_9.jpg" alt="img">
+                    <div class="prod__name">Mango People T-shirt</div>
+                    <div class="prod__price">$52.00</div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="Browse_product">
+        <a href="#" class="Browse_button  shadowBox">Browse All Product</a>
+    </div>
+    <div class="sale_line">
+        <div class="sale_conteiner">
+            <div class="sale_offer">
+                <div class="sale_contText">
+                    <h2 class="sale_h2">30% <span class="sale_h2_r">OFFER</span></h2>
+                    <h3 class="sale_h3">FOR WOMEN</h3>
+                </div>
+            </div>
+            <div class="sale_text_box">
+                <div class="sale_container">
+                    <div class="sale_box_up">
+                        <img src="img/Forma_1.png" alt="img">
+                        <span class="sale_text_tit">Free Delivery</span>
+                    </div>
+                    <div class="sale_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
+                </div>
+                <div class="sale_container">
+                    <div class="sale_box_up">
+                        <img src="img/Forma_1%20(1).png" alt="img">
+                        <span class="sale_text_tit">Sales & discounts</span>
+                    </div>
+                    <div class="sale_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
+                </div>
+                <div class="sale_container">
+                    <div class="sale_box_up">
+                        <img src="img/Forma_1%20(2).png" alt="img">
+                        <span class="sale_text_tit">Quality assurance</span>
+                    </div>
+                    <div class="sale_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subs_line">
+        <div class="review_box"></div>
+        <div class="subs_box"></div>
+    </div>
+    <div class="information_line">
+        <div class="brand_text"></div>
+        <div class="company"></div>
+        <div class="information"></div>
+        <div class="shop_cat"></div>
+    </div>
 </body>
+<div class="footer">
 
-
-</html>
+</div></html>
