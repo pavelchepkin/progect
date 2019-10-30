@@ -775,3 +775,87 @@ color: #f16d7f;
     background-color: #f16d7f;
     color: #fff;
 }
+
+.menu__link__focus {
+    border-bottom: 3px solid #ef5b70;
+}
+
+.newArrivals_line {
+    display: flex;
+      justify-content: center;
+    height: 148px;
+    background-color: #f8f3f4;
+
+}
+
+.newArrivals_conteiner {
+    width: 1140px;
+    height: 148px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newArrivals_title {
+    color: #f16d7f;
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.newArrivals_text {
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+color: #636363;
+}
+
+.newArrivals_text_r {
+    color: #f16d7f;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.plusesOffer_Line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: #222224;
+    height: 341px;
+}
+
+
+.plusesOffer_conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    
+}
+
+
+.plusesOffer_box {
+    width: 340px;
+    text-align: center;
+    margin-right: 80px;
+}
+.plusesOffer_box:last-child {
+    margin-right: 0;
+}
+
+
+.plusesOffer_text {
+    color: #fbfbfb;
+font-size: 14px;
+font-weight: 300;
+letter-spacing: 0.35px;
+}
+
+.plusesOffer_title {
+    color: #fbfbfb;
+font-size: 20px;
+font-weight: 700;
+margin-top: 25px;
+    margin-bottom: 17px;
+letter-spacing: 0.5px;
+}
