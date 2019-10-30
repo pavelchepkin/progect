@@ -603,13 +603,13 @@ a {
 .subs_box_email {
     border-radius: 23px 0 0 23px;
     background-color: #e1e1e1;
-    width: 280px;
+    width: 260px;
     height: 46px;
     padding-left: 28px;
     color: #222224;
     font-size: 14px;
     font-weight: 400;
-
+padding-right: 20px;
     letter-spacing: 0.35px;
 }
 
@@ -654,7 +654,6 @@ a {
 
 .copy_lne {
     background-color: #e6e6e6;
-    width: 1600px;
     height: 80px;
     margin: 0 auto;
     margin-top: 40px;
@@ -680,6 +679,13 @@ social_link:hover {}
     width: 32px;
     height: 32px;
     background-color: #ffffff;
+    text-align: center;
+    line-height: 32px;
+    color: #b2b2b2;
+font-size: 16px;
+font-weight: 400;
+
+letter-spacing: 0.4px;
 }
 
 .social_link_box:hover {
@@ -723,7 +729,7 @@ social_link:hover {}
     color: #898989;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
     letter-spacing: 0.4px;
 }
 
@@ -749,7 +755,7 @@ social_link:hover {}
     color: #898989;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
     letter-spacing: 0.4px;
 }
 
@@ -757,6 +763,15 @@ social_link:hover {}
     color: #898989;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
     letter-spacing: 0.4px;
+}
+
+.link_hover:hover {
+color: #f16d7f;
+}
+
+.social_link_box_hover:hover {
+    background-color: #f16d7f;
+    color: #fff;
 }
