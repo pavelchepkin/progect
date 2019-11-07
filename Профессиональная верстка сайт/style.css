@@ -4,6 +4,7 @@
 }
 
 
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -17,7 +18,7 @@ a {
 .container {
     width: 1140px;
     margin: 0 auto;
-    z-index: top;
+    z-index: 100;
 }
 
 
@@ -48,6 +49,11 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.browse:hover .browse_dropDown {
+    display: block;
+}
+
 
 .header__left,
 .header__form,
@@ -274,6 +280,26 @@ a {
     margin-top: 40px;
 }
 
+.header_button {
+    background-color: #f16d7f;
+    width: 130px;
+    height: 38px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.38px;
+    position: relative;
+}
+
+.header_button:hover .header_button_drop{
+    display: block;
+}
+
+
+
 .button {
     background-color: #f16d7f;
     width: 130px;
@@ -460,6 +486,7 @@ a {
     line-height: 38px;
     width: 87px;
     height: 38px;
+    position: relative;
 }
 
 .inputHead {
@@ -728,6 +755,7 @@ social_link:hover {}
     font-weight: 300;
     letter-spacing: 0.35px;
     margin-top: 30px;
+    line-height: 24px;
 }
 
 .brand_box_text {
@@ -1028,6 +1056,7 @@ social_link:hover {}
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 
@@ -1211,6 +1240,19 @@ input {
     border-bottom: 1px solid #e8e8e8;
     padding-bottom: 8px;
     width: 235px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.browse_drop__h3 {
+    color: #232323;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 8px;
+    width: 150px;
     margin-bottom: 8px;
     margin-top: 8px;
 }
@@ -1664,4 +1706,44 @@ input {
     width: 1140px;
     display: flex;
     justify-content: space-between;
+}
+
+.browse_dropDown {
+    position: absolute;
+    left: 0px;
+    background-color: #ffffff;
+    z-index: 101;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    padding: 5px 20px 20px;
+    display: none;
+}
+
+
+
+
+
+.browse_dropDown_flex {
+    width: 150px;
+}
+
+
+
+.header_button_drop {
+    position: absolute;
+    width: 130px;
+    border-radius: 3px;
+    outline: 2px solid #F16D7F;
+    background-color: #fff;
+    color: #F16D7F;
+    display: none;
+}
+.header_button_drop:hover{
+    background-color: #F8F3F4;
+}
+
+
+
+.SP_video {
+    object-fit: cover;
 }

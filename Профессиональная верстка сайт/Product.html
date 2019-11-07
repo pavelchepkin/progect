@@ -17,23 +17,58 @@
             <div class="header__left">
                 <a href="index.html" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN <span class="logo_r">d</span></a>
                 <form action="#" class="header__form">
-                    <a href="#">
-                        <div class="browse shadowBox">Browse</div>
+                    <a class="browse_dropDown_a" href="#">
+                        <div class="browse shadowBox">Browse
+                            <div class="browse_dropDown">
+                                <div class="browse_dropDown_flex">
+                                    <h3 class="browse_drop__h3">Women</h3>
+                                    <ul class="drop__ul">
+                                        <li><a href="#" class="drop__link">Dresses</a></li>
+                                        <li><a href="#" class="drop__link">Tops</a></li>
+                                        <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                                        <li><a href="#" class="drop__link">Jackets/Coats</a></li>
+                                        <li><a href="#" class="drop__link">Blazers</a></li>
+                                        <li><a href="#" class="drop__link">Denim</a></li>
+                                        <li><a href="#" class="drop__link">Leggings/Pants</a></li>
+                                        <li><a href="#" class="drop__link">Skirts/Shorts</a></li>
+                                        <li><a href="#" class="drop__link">Accessories </a></li>
+                                    </ul>
+                                </div>
+                                <div class="browse_dropDown_flex">
+                                    <h3 class="browse_drop__h3">Men</h3>
+                                    <ul class="drop__ul">
+                                        <li><a href="#" class="drop__link"> Tees/Tank tops
+                                            </a></li>
+                                        <li><a href="#" class="drop__link">Shirts/Polos
+                                            </a></li>
+                                        <li><a href="#" class="drop__link">Sweaters</a></li>
+                                        <li><a href="#" class="drop__link">Sweatshirts/Hoodies</a></li>
+                                        <li><a href="#" class="drop__link">Blazers</a></li>
+                                        <li><a href="#" class="drop__link">Jackets/vests</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </a>
+
                     <input class="inputHead" placeholder="   Search for Item..." type="text">
                     <button type="submit"><i class="fass fas fa-search"></i></button>
                 </form>
             </div>
             <div class="header__right">
                 <a class="header__cart_a" href="#"><img class="header__cart" src="img/cart.svg" alt="cart"></a>
-                <a href="#" class="button shadowBox">My&nbsp;Account</a>
+                <a href="#">
+                    <div class="header_button">My&nbsp;Account
+                        <div class="header_button_drop">Bag</div>
+                    </div>
+                </a>
             </div>
         </div>
     </header>
     <nav class="nav">
         <div class="container">
             <ul class="menu">
-                <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
+                <li class="menu__list"><a href="index.html" class="menu__link">Home</a></li>
                 <li class="menu__list"><a href="Product.html" class="menu__link menu__link__focus">Men</a>
                     <div class="drop">
                         <div class="drop__flex">
@@ -383,20 +418,20 @@
                 <div class="cS_size">
                     <div class="cS_size_title">Size </div>
                     <form class="form_check" action="#">
-                        <div class="sport">
-                            <input id="size" type="checkbox"> XXL</div>
-                        <div class="sport">
-                            <input id="size" type="checkbox"> XL</div>
-                        <div class="sport">
-                            <input id="size" type="checkbox"> S</div>
-                        <div class="sport">
-                            <input id="size" type="checkbox"> M</div>
-                        <div class="sport">
-                            <input id="size" type="checkbox"> L</div>
-                        <div class="sport">
-                            <input id="size" type="checkbox"> XL</div>
-                        <div class="sport">
-                            <input id="size" type="checkbox"> XXL</div>
+                        <label for="sizeXXL" class="sport">
+                            <input id="sizeXXL" type="checkbox"> XXL</label>
+                        <label for="sizeXL" class="sport">
+                            <input id="sizeXL" type="checkbox"> XL</label>
+                        <label for="sizeS" class="sport">
+                            <input id="sizeS" type="checkbox"> S</label>
+                        <label for="sizeM" class="sport">
+                            <input id="sizeM" type="checkbox"> M</label>
+                        <label for="sizeL" class="sport">
+                            <input id="sizeL" type="checkbox"> L</label>
+                        <label for="size_XL" class="sport">
+                            <input id="size_XL" type="checkbox"> XL</label>
+                        <label for="size_XXL" class="sport">
+                            <input id="size_XXL" type="checkbox"> XXL</label>
                     </form>
                 </div>
                 <div class="cS_price">
@@ -433,7 +468,9 @@
             <section class="products__line">
                 <a class="a_prod" href="#">
                     <section class="product_boxM shadowBox">
-                        <img src="img/2-layers.jpg" alt="img">
+                        <video class="SP_video" autoplay muted loop height="280" width="261">
+                            <source src="media/video.webm" type="video/webm">
+                        </video>
                         <div class="prod__name">Mango People T-shirt</div>
                         <div class="prod__price">$52.00</div>
 
@@ -465,7 +502,9 @@
                 </a>
                 <a class="a_prod" href="#">
                     <section class="product_boxM shadowBox">
-                        <img src="img/2-layers%20(2).jpg" alt="img">
+                        <video class="SP_video" autoplay muted loop height="280" width="261">
+                            <source src="media/video.webm" type="video/webm">
+                        </video>
                         <div class="prod__name">Mango People T-shirt</div>
                         <div class="prod__price">$52.00</div>
 
@@ -686,10 +725,7 @@
                     $(this).addClass('active');
                 });
         });
-
     </script>
 
 
-</body>
-
-</html>
+</body></html>
