@@ -94,7 +94,6 @@ a {
 .container {
   width: 1140px;
   margin: 0 auto;
-  z-index: 100;
 }
 
 .header {
@@ -176,6 +175,7 @@ a {
   background-position: 0 -51px;
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 
 .promo__text {
@@ -183,6 +183,8 @@ a {
   padding-left: 12px;
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
+  position: relative;
+  z-index: 1;
 }
 
 .offers_line {
@@ -602,7 +604,6 @@ a {
   top: 45px;
   left: -15px;
   background-color: #ffffff;
-  z-index: 55555;
 }
 .dropBag__product {
   display: flex;
@@ -1361,6 +1362,7 @@ input {
   display: none;
   position: absolute;
   top: 46px;
+  z-index: 99999;
 }
 
 .drop__h3 {
@@ -1521,6 +1523,10 @@ input {
 
 .d-block {
   margin: 0 auto;
+}
+
+.carousel {
+  z-index: 1;
 }
 
 #carouselExampleControls {

@@ -92,7 +92,6 @@ a
 .container
   width: 1140px
   margin: 0 auto
-  z-index: 100
 
 .header
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.17)
@@ -162,12 +161,15 @@ a
   background-position: 0 -51px
   display: flex
   align-items: center
+  z-index: 1
 
 .promo__text
   border-left: 12px solid #f16d7f
   padding-left: 12px
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both
   animation: heartbeat 1.5s ease-in-out infinite both
+  position: relative
+  z-index: 1
 
 .offers_line
   width: 1140px
@@ -534,7 +536,6 @@ a
   top: 45px
   left: -15px
   background-color: #ffffff
-  z-index: 55555
 
   &__product
     display: flex
@@ -1202,6 +1203,7 @@ input
   display: none
   position: absolute
   top: 46px
+  z-index: 99999
 
 .drop__h3
   color: #232323
@@ -1340,6 +1342,9 @@ input
 
 .d-block
   margin: 0 auto
+
+.carousel
+  z-index: 1
 
 #carouselExampleControls
   background-color: #F7F7F7
