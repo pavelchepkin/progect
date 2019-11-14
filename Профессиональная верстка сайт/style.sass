@@ -7,7 +7,7 @@ $transitionTime: .5s
  * animation heartbeat
  * ----------------------------------------
  */
-@-webkit-keyframes heartbeat 
+@-webkit-keyframes heartbeat
   from
     -webkit-transform: scale(1)
       transform: scale(1)
@@ -41,7 +41,7 @@ $transitionTime: .5s
       animation-timing-function: ease-out
 
 
-@keyframes heartbeat 
+@keyframes heartbeat
   from
     -webkit-transform: scale(1)
       transform: scale(1)
@@ -75,31 +75,26 @@ $transitionTime: .5s
       animation-timing-function: ease-out
 
 
-
-
-
-
-
-* 
+*
   margin: 0
   padding: 0
 
-body 
+body
   font-family: 'Lato', sans-serif
 
-a 
+a
   text-decoration: none
   color: black
 
 .nav
   z-index: 100
 
-.container 
+.container
   width: 1140px
   margin: 0 auto
   z-index: 100
 
-.header 
+.header
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.17)
   border: 1px solid #ececec
   background-color: #ffffff
@@ -107,46 +102,46 @@ a
   margin: 0 auto
   z-index: 100
 
-.header-flex 
+.header-flex
   height: 100px
   display: flex
   justify-content: space-between
   align-items: center
 
-.browse::after 
+.browse::after
   content: '\25BC'
   padding-left: 0.5em
   font-size: 10px
 
-.browse:hover 
+.browse:hover
   text-decoration: none
   color: black
 
-.browse:hover .browse_dropDown 
+.browse:hover .browse_dropDown
   display: block
 
 .header__left,
 .header__form,
-.logo 
+.logo
   display: flex
   align-items: center
 
-.header__form 
+.header__form
   margin-left: 37px
 
-.header__right 
+.header__right
   display: flex
   align-items: center
 
-.logo__img 
+.logo__img
   margin-right: 13px
 
-.menu 
+.menu
   list-style-type: none
   display: flex
   justify-content: center
 
-.menu__link 
+.menu__link
   padding: 20px
   display: block
   color: #222222
@@ -155,130 +150,133 @@ a
   text-transform: uppercase
   text-decoration: none
 
-.promo 
+.promo
   background-color: #e8e8e8
   width: 1600px
   margin: 0 auto
 
 
-
-.promo-content 
+.promo-content
   height: 614px
   background-image: url(img/promo_back.jpg)
   background-position: 0 -51px
   display: flex
   align-items: center
 
-.promo__text 
+.promo__text
   border-left: 12px solid #f16d7f
   padding-left: 12px
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both
   animation: heartbeat 1.5s ease-in-out infinite both
 
-.offers_line 
+.offers_line
   width: 1140px
   display: flex
   justify-content: space-between
   margin: 98px auto 0
 
-.for_men 
+.for_men
   height: 542px
   background-image: url(img/Layer_30.jpg)
   width: 560px
   transition: $transitionTime
+
   &:hover
     transform: scale(1.05)
 
-.women 
+.women
   width: 560px
   height: 261px
   background-image: url(img/Layer_32.jpg)
   justify-content: flex-end
   transition: $transitionTime
+
   &:hover
     transform: scale(1.05)
 
-.accesories 
+.accesories
   float: left
   margin-top: 20px
   background-image: url(img/Layer_37.jpg)
   height: 261px
   width: 560px
   transition: $transitionTime
+
   &:hover
     transform: scale(1.05)
 
-.for_kids 
+.for_kids
   width: 560px
   height: 542px
   background-image: url(img/Layer_31.jpg)
   margin-top: 20px
   transition: $transitionTime
+
   &:hover
     transform: scale(1.05)
 
-.for_men_text 
+.for_men_text
   background-color: #ffffff
   padding: 16px 20px 16px 20px
   display: inline-block
   margin-top: 25px
 
-.offer_t_up 
+.offer_t_up
   color: #222222
   font-size: 18px
   font-weight: 700
   text-transform: uppercase
 
-.offer_t_down 
+.offer_t_down
   text-transform: uppercase
   color: #f16d7f
   font-size: 30px
   letter-spacing: 0.75px
   font-weight: 700
 
-.Fetured_title 
+.Fetured_title
   display: flex
   flex-wrap: wrap
   justify-content: center
   width: 500px
   margin-top: 100px
 
-.Fetured_text_up 
+.Fetured_text_up
   color: #222222
   font-size: 30px
   font-weight: 700
   letter-spacing: 0.75px
 
-.Fetured_text_down 
+.Fetured_text_down
   color: #9f9f9f
   font-size: 14px
   font-weight: 400
   margin-top: 15px
   letter-spacing: 0.35px
 
-.fetured_items 
+.fetured_items
   display: flex
   justify-content: center
 
-.promo__h2 
+.promo__h2
   text-transform: uppercase
   font-size: 60px
   line-height: 40px
   font-weight: 700
   letter-spacing: 1.5px
 
-.promo__h3 
+.promo__h3
   color: #222222
   font-size: 40px
   font-weight: 400
   text-transform: uppercase
   line-height: 40px
 
-.promo__h3_r 
+.promo__h3_r
   color: #f16d7f
   letter-spacing: 1px
 
-.product_box 
+.product_box
   height: 376px
   margin-top: 2px
   margin-bottom: 39px
@@ -287,17 +285,17 @@ a
   transform: scale(1)
   transition: background-color scale $transitionTime
 
-.product_box:hover .prod_add_to_card 
+.product_box:hover .prod_add_to_card
   display: block
 
-.product_box:hover img 
+.product_box:hover img
   filter: brightness(50%)
 
-.Fetured_line 
+.Fetured_line
   width: 1140px
   margin: 0 auto
 
-.product_box_img1 
+.product_box_img1
   width: 261px
   background-image: url(img/Layer_2.jpg)
 
@@ -307,7 +305,7 @@ a
   justify-content: space-between
   margin-top: 60px
 
-.prod__name 
+.prod__name
   color: #222222
   font-size: 13px
   font-weight: 400
@@ -315,19 +313,19 @@ a
   margin-left: 15px
   margin-top: 20px
 
-.prod__price 
+.prod__price
   color: #f16d7f
   font-size: 16px
   font-weight: 700
   text-transform: uppercase
   margin: 15px
 
-.Browse_product 
+.Browse_product
   display: flex
   justify-content: center
   margin-top: 40px
 
-.header_button 
+.header_button
   background-color: #f16d7f
   width: 130px
   height: 38px
@@ -340,11 +338,11 @@ a
   letter-spacing: 0.38px
   position: relative
 
-.header_button:hover .header_button_drop 
+.header_button:hover .header_button_drop
   display: block
 
 
-.button 
+.button
   background-color: #f16d7f
   width: 130px
   height: 38px
@@ -356,7 +354,7 @@ a
   text-align: center
   letter-spacing: 0.38px
 
-.button::after 
+.button::after
   content: '\25BC'
   padding-left: 0.5em
   font-size: 10px
@@ -365,14 +363,14 @@ a
   width: 1140px
   margin: 113px auto 0
 
-.sale_conteiner 
+.sale_conteiner
   display: flex
   background-color: #222224
 
-.sale_text_box 
+.sale_text_box
   width: 373px
 
-.sale_text 
+.sale_text
   color: #fbfbfb
   font-size: 14px
   font-weight: 300
@@ -382,18 +380,18 @@ a
   margin-left: 112px
   line-height: 24px
 
-.sale_text_title 
+.sale_text_title
   color: #fbfbfb
   font-size: 20px
   font-weight: 700
   letter-spacing: 0.5px
 
-.sale_offer 
+.sale_offer
   background-image: url(img/Layer_38.jpg)
   width: 767px
   height: 529px
 
-.subs_line 
+.subs_line
   display: flex
   background-image: url(img/Layer_41.jpg)
   height: 438px
@@ -401,17 +399,17 @@ a
   margin: 100px auto 0
   justify-content: center
 
-.information_line 
+.information_line
   width: 1140px
   margin: 110px auto 0
   display: flex
   justify-content: space-between
 
-.footer 
+.footer
   height: 80px
   background-color: #e6e6e6
 
-.Browse_button 
+.Browse_button
   background-color: #f16d7f
   padding: 20px
   color: #ffffff
@@ -420,48 +418,48 @@ a
   letter-spacing: 0.4px
   text-decoration: none
 
-.sale_box_up 
+.sale_box_up
   display: flex
   align-items: center
   margin-top: 40px
   margin-left: 36px
 
-.sale_text_tit 
+.sale_text_tit
   color: #fbfbfb
   font-size: 20px
   font-weight: 700
   margin-left: 35px
   letter-spacing: 0.5px
 
-.sale_h2 
+.sale_h2
   color: #ffffff
   font-size: 54px
   font-weight: 700
   text-transform: uppercase
   letter-spacing: 1.5px
 
-.sale_h2_r 
+.sale_h2_r
   font-size: 54px
   font-weight: 700
   text-transform: uppercase
   color: #f16d7f
   letter-spacing: 1.5px
 
-.sale_h3 
+.sale_h3
   color: #ffffff
   font-weight: 700
   text-transform: uppercase
   letter-spacing: 1.5px
   font-size: 32px
 
-.sale_contText 
+.sale_contText
   margin-top: 135px
   margin-left: 40px
 
-.a_prod 
+.a_prod
   text-decoration: none
 
-.logo 
+.logo
   color: #222222
   font-size: 27px
   font-weight: 400
@@ -469,14 +467,14 @@ a
   text-decoration: none
   letter-spacing: 0.68px
 
-.logo_r 
+.logo_r
   font-size: 27px
   text-transform: uppercase
   color: #f16d7f
   font-weight: 400
   letter-spacing: 0.68px
 
-.browse 
+.browse
   border-radius: 3px 0 0 3px
   border: 1px solid #e6e6e6
   background-color: #cdcdcc
@@ -487,7 +485,7 @@ a
   height: 38px
   position: relative
 
-.inputHead 
+.inputHead
   border-radius: 0 3px 3px 0
   border: 1px solid #e6e6e6
   background-color: #ffffff
@@ -496,90 +494,191 @@ a
   padding-left: 10px
   padding-right: 10px
 
-.fass 
+.fass
   background-color: #fff
   padding: 10px
 
-.menu__link:hover 
+.menu__link:hover
   -webkit-box-shadow: 1px 1px 2px 1px #6B6B6B
   box-shadow: 1px 1px 2px 1px #6B6B6B
   transition: .5s
   text-decoration: none
   color: black
 
-.menu__link:active 
+.menu__link:active
   box-shadow: none
 
-.header__cart_a:hover 
-  -webkit-box-shadow: 1px 1px 2px 1px #6B6B6B
-  box-shadow: 1px 1px 2px 1px #6B6B6B
+.header__cart
+  background-image: url("img/cart.svg")
+  background-repeat: no-repeat
+  width: 55px
+  height: 50px
+  margin-top: 20px
+  margin-left: 25px
+  position: relative
+  transition: scale $transitionTime
 
-.header__cart_a:active 
-  box-shadow: none
+  &:hover .dropBag
+    display: flex
 
-.header__cart_a 
-  margin-right: 26px
+  &:hover
+    transform: scale(1.2)
 
-.inputHead:focus 
+.dropBag
+  display: none
+  flex-direction: column
+  align-items: center
+  width: 262px
+  position: absolute
+  border: 1px solid #C0C0C0
+  top: 45px
+  left: -15px
+  background-color: #ffffff
+  z-index: 55555
+
+  &__product
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 230px
+    height: 122px
+    border-bottom: 1px solid #ededed
+
+    &_cross
+      color: #c0c0c0
+      font-size: 16px
+      font-weight: 400
+      text-transform: uppercase
+
+    &_box
+      display: flex
+
+    &_value
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      min-height: 56px
+      margin-left: 15px
+
+    &_valueTitle
+      color: #222222
+      font-size: 12px
+      font-weight: 700
+      text-transform: uppercase
+      margin-top: 10px
+
+    & img
+      width: 72px
+      height: 85px
+      object-fit: cover
+
+    &_valuePrice
+      color: #f16d7f
+      font-size: 12px
+      font-weight: 400
+      text-transform: uppercase
+      margin-bottom: 15px
+
+  &__sumPrise
+    display: flex
+    justify-content: space-between
+    margin-top: 20px
+    width: 230px
+
+    & div
+      color: #222222
+      font-size: 16px
+      font-weight: 700
+      text-transform: uppercase
+
+  &__ButtonCheckout
+    color: #f16d7f
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    border: 1px solid #f16d7f
+    width: 225px
+    height: 50px
+    margin-top: 32px
+    text-align: center
+    line-height: 50px
+
+  &__ButtonCart
+    color: #4a4a4a
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    border: 1px solid #eaeaea
+    width: 225px
+    height: 50px
+    margin-top: 11px
+    margin-bottom: 20px
+    text-align: center
+    line-height: 50px
+
+.stars
+  color: #e4af48
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+
+.inputHead:focus
   background-color: #D8D8D8
   outline: none
 
-.shadowBox:active 
-  box-shadow: none
-
-.subs_box 
+.subs_box
   width: 1140px
   display: flex
   justify-content: space-between
 
-.review_box 
+.review_box
   width: 500px
   margin-top: 111px
   display: flex
 
-.review_box_img 
+.review_box_img
   width: 83px
   height: 83px
 
-.review_box_text 
+.review_box_text
   margin-left: 30px
   width: 400px
   margin-top: 12px
 
-.review_box_text_italic 
+.review_box_text_italic
   color: #222224
   font-size: 16px
   font-style: italic
   letter-spacing: 0.4px
 
-.review_box_text_r 
+.review_box_text_r
   margin-top: 20px
   color: #f16d7f
   font-size: 16px
   font-weight: 700
   letter-spacing: 0.4px
 
-.review_box_text_adress 
+.review_box_text_adress
   color: #222224
   font-size: 12px
   font-weight: 300
   letter-spacing: 0.3px
 
-.review_box_scroll 
+.review_box_scroll
   margin-top: 42px
   display: flex
   align-items: flex-end
 
-.review_box_scroll_l 
+.review_box_scroll_l
   background-color: #d6d6d6
   width: 38px
   height: 4px
   margin-right: 13px
 
-.review_box_scroll_l:focus 
+.review_box_scroll_l:focus
   background-color: #f16d7f
 
-.focus 
+.focus
   background-color: #f16d7f
 
 .subs_box_form
@@ -587,20 +686,20 @@ a
   margin-left: 165px
   width: 440px
 
-.subs_box_title 
+.subs_box_title
   font-size: 24px
   letter-spacing: 0.6px
   text-transform: uppercase
   text-align: center
 
-.subs_box_text 
+.subs_box_text
   color: #222224
   font-size: 14px
   font-weight: 400
   letter-spacing: 0.35px
   text-align: center
 
-.subs_box_email 
+.subs_box_email
   border-radius: 23px 0 0 23px
   background-color: #e1e1e1
   width: 260px
@@ -612,10 +711,10 @@ a
   padding-right: 20px
   letter-spacing: 0.35px
 
-.subs_box_email:focus 
+.subs_box_email:focus
   font-size: 18px
 
-.subs_box_email_button 
+.subs_box_email_button
   border-radius: 0 23px 23px 0
   background-color: #f16d7f
   width: 104px
@@ -625,11 +724,11 @@ a
   color: #ffffff
   text-align: center
 
-.subs_box_email_button:hover 
+.subs_box_email_button:hover
   text-decoration: none
   color: #fff
 
-.prod_add_to_card 
+.prod_add_to_card
   position: absolute
   width: 123px
   height: 39px
@@ -643,21 +742,22 @@ a
   font-weight: 700
   display: none
 
-.prod_add_to_card:hover 
+.prod_add_to_card:hover
   box-shadow: 0 0 4px 4px #FFFFFF
   transition: .3s
 
-.subs_boxForm 
+.subs_boxForm
   margin-top: 35px
 
-.copy_lne 
+.copy_lne
   background-color: #e6e6e6
   height: 80px
   margin: 40px auto 0
+
   &:hover .social_link_box
     transform: rotate(0deg)
 
-.copy_conteiner 
+.copy_conteiner
   display: flex
   justify-content: space-between
   align-items: center
@@ -665,9 +765,10 @@ a
   width: 1140px
   margin: 0 auto
 
-.social_link 
+.social_link
   margin-left: 8px
-  &_box 
+
+  &_box
     width: 32px
     height: 32px
     background-color: #ffffff
@@ -678,20 +779,21 @@ a
     font-weight: 400
     letter-spacing: 0.4px
     transition: all $transitionTime
+
     &_hover:hover
       background-color: #f16d7f
       color: #fff
 
-.copy_link 
+.copy_link
   display: flex
 
-.copy_text 
+.copy_text
   color: #7a7a7a
   font-size: 16px
   font-weight: 400
   letter-spacing: 0.4px
 
-.brand_text 
+.brand_text
   color: #898989
   font-size: 14px
   font-weight: 300
@@ -699,10 +801,10 @@ a
   margin-top: 30px
   line-height: 24px
 
-.brand_box_text 
+.brand_box_text
   width: 430px
 
-.company_box_title 
+.company_box_title
   color: #f16d7f
   font-size: 18px
   font-weight: 700
@@ -710,14 +812,14 @@ a
   margin-bottom: 45px
   letter-spacing: 0.45px
 
-.company_box_category 
+.company_box_category
   color: #898989
   font-size: 16px
   font-weight: 400
   padding-bottom: 25px
   letter-spacing: 0.4px
 
-.INFORMATION_box_title 
+.INFORMATION_box_title
   color: #f16d7f
   font-size: 18px
   font-weight: 700
@@ -725,7 +827,7 @@ a
   margin-bottom: 45px
   letter-spacing: 0.45px
 
-.SHOP_CATEGORY_box_title 
+.SHOP_CATEGORY_box_title
   color: #f16d7f
   font-size: 18px
   font-weight: 700
@@ -733,27 +835,27 @@ a
   margin-bottom: 45px
   letter-spacing: 0.45px
 
-.INFORMATION_box_category 
+.INFORMATION_box_category
   color: #898989
   font-size: 16px
   font-weight: 400
   padding-bottom: 25px
   letter-spacing: 0.4px
 
-.SHOP_CATEGORY_box_category 
+.SHOP_CATEGORY_box_category
   color: #898989
   font-size: 16px
   font-weight: 400
   padding-bottom: 25px
   letter-spacing: 0.4px
 
-.link_hover:hover 
+.link_hover:hover
   color: #f16d7f
 
-.menu__link__focus 
+.menu__link__focus
   border-bottom: 3px solid #ef5b70
 
-.newArrivals_line 
+.newArrivals_line
   display: flex
   justify-content: center
   height: 148px
@@ -761,58 +863,73 @@ a
   z-index: 100
 
 
-.newArrivals_conteiner 
+.newArrivals_conteiner
   width: 1140px
   height: 148px
   display: flex
   justify-content: space-between
   align-items: center
 
-.newArrivals_title 
+.newArrivals_title
   color: #f16d7f
   font-size: 24px
   font-weight: 400
   text-transform: uppercase
 
-.newArrivals_text 
+.newArrivals_text
   font-size: 14px
   font-weight: 700
   text-transform: uppercase
   color: #636363
 
-.newArrivals_text_r 
-  color: #f16d7f
-  font-size: 14px
-  font-weight: 700
-  text-transform: uppercase
+  &H
+    color: #636363
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    transition: all $transitionTime
+    padding-top: 20px
+    padding-bottom: 20px
 
-.plusesOffer_Line 
+    &:hover
+      color: #f16d7f
+      display: inline-block
+      transform: scale(1.1)
+
+    &:last-child
+      color: #f16d7f
+      font-weight: 700
+
+      &:hover
+        color: black
+
+.plusesOffer_Line
   display: flex
   justify-content: center
   align-items: center
   background-color: #222224
   height: 341px
 
-.plusesOffer_conteiner 
+.plusesOffer_conteiner
   display: flex
   justify-content: space-between
   align-items: center
 
-.plusesOffer_box 
+.plusesOffer_box
   width: 340px
   text-align: center
   margin-right: 80px
 
-.plusesOffer_box:last-child 
+.plusesOffer_box:last-child
   margin-right: 0
 
-.plusesOffer_text 
+.plusesOffer_text
   color: #fbfbfb
   font-size: 14px
   font-weight: 300
   letter-spacing: 0.35px
 
-.plusesOffer_title 
+.plusesOffer_title
   color: #fbfbfb
   font-size: 20px
   font-weight: 700
@@ -820,7 +937,7 @@ a
   margin-bottom: 17px
   letter-spacing: 0.5px
 
-.centerScreen 
+.centerScreen
   display: flex
   width: 1140px
   margin: 70px auto 0
@@ -832,16 +949,16 @@ a
   width: 245px
   margin: -25px auto 0
 
-.mini-menu ul 
+.mini-menu ul
   list-style: none
   margin: 0
   padding: 0
   text-align: left
 
-.mini-menu > ul > li 
+.mini-menu > ul > li
   position: relative
 
-.mini-menu > ul > li > a 
+.mini-menu > ul > li > a
   display: block
   outline: 0
   padding: .7em 1em
@@ -859,16 +976,16 @@ a
   box-shadow: inset 0 1px 0 0 rgba(250, 250, 250, 0.1)
 
 .mini-menu > ul > li > a:hover,
-.mini-menu > ul > li > a.active 
+.mini-menu > ul > li > a.active
   color: #ef5b70
 
-.mini-menu .sub > ul 
+.mini-menu .sub > ul
   counter-reset: items
   height: 0
   overflow: hidden
   background: #fff
 
-.mini-menu .sub > ul > li > a 
+.mini-menu .sub > ul > li > a
   counter-increment: items
   color: #6f6e6e
   font-size: 14px
@@ -878,66 +995,66 @@ a
   padding: .7em 1em
 
 .mini-menu .sub > ul > li > a:hover,
-.mini-menu .sub > ul > li > a.active 
+.mini-menu .sub > ul > li > a.active
   background: #F0F0F0
   color: #ef5b70
 
-.mini-menu .sub > ul > li > a:after 
+.mini-menu .sub > ul > li > a:after
   float: left
   margin-right: 6px
   line-height: 12px
 
-.cS__options_line 
+.cS__options_line
   display: flex
   justify-content: space-between
   width: 850px
 
-.cS_trending_text 
+.cS_trending_text
   color: #6f6e6e
   font-size: 14px
   font-weight: 400
   line-height: 26px
   margin-top: 20px
 
-.cS_trending_text a:hover 
+.cS_trending_text a:hover
   color: #ef5b70
 
-.cS_trending_title 
+.cS_trending_title
   color: #6f6e6e
   font-size: 14px
   font-weight: 700
   text-transform: uppercase
 
-.cS_size_title 
+.cS_size_title
   color: #6f6e6e
   font-size: 14px
   font-weight: 700
   text-transform: uppercase
   margin-bottom: 25px
 
-.cS_price 
+.cS_price
   width: 265px
   height: 75px
 
-.cS_trending 
+.cS_trending
   width: 180px
   height: 75px
 
-.cS_size 
+.cS_size
   width: 250px
   height: 75px
 
-.cS_price_title 
+.cS_price_title
   color: #6f6e6e
   font-size: 14px
   font-weight: 700
   text-transform: uppercase
 
-.form_check 
+.form_check
   display: flex
   flex-wrap: wrap
 
-.sport 
+.sport
   width: 62px
   margin-bottom: 13px
   color: #6f6e6e
@@ -946,7 +1063,7 @@ a
   text-transform: uppercase
   display: inline-block
 
-.customRange2 
+.customRange2
   -webkit-appearance: none
   width: 265px
   height: 6px
@@ -954,17 +1071,17 @@ a
   margin-top: 25px
   background-color: #f0f0f0
 
-.customRange2::-webkit-slider-thumb 
+.customRange2::-webkit-slider-thumb
   -webkit-appearance: none
   background-color: #f16d7f
   width: 14px
   height: 14px
   border-radius: 14px
 
-input 
+input
   outline: none
 
-.cS_price_text 
+.cS_price_text
   color: #6f6e6e
   font-size: 14px
   font-weight: 400
@@ -972,7 +1089,7 @@ input
   justify-content: space-between
   margin-top: 20px
 
-.sort_by_line 
+.sort_by_line
   display: flex
   width: 850px
   height: 50px
@@ -980,13 +1097,13 @@ input
   margin-top: 43px
   align-items: center
 
-.cS__options_conteiner 
+.cS__options_conteiner
   width: 850px
 
-.cS__options_box 
+.cS__options_box
   margin-left: 50px
 
-.sort_by_box 
+.sort_by_box
   width: 60px
   height: 30px
   background-color: #fff
@@ -997,7 +1114,7 @@ input
   font-weight: 400
   line-height: 30px
 
-.btn 
+.btn
   background-color: #fff
   color: #6f6e6e
   font-size: 14px
@@ -1008,20 +1125,20 @@ input
   text-align: center
   line-height: 10px
 
-.dropdown-item 
+.dropdown-item
   min-width: 10px
 
-.products__line 
+.products__line
   width: 850px
   display: flex
   flex-wrap: wrap
   justify-content: space-between
 
-.product_boxM 
+.product_boxM
   height: 376px
   margin-top: 40px
 
-.namPages 
+.namPages
   border-radius: 3px
   border: 1px solid #ebebeb
   background-color: #ffffff
@@ -1030,7 +1147,7 @@ input
   justify-content: space-between
   align-items: center
 
-.vievAll_line 
+.vievAll_line
   width: 850px
   display: flex
   justify-content: space-between
@@ -1038,20 +1155,20 @@ input
   margin-top: 43px
   margin-bottom: 110px
 
-.namPnams:hover 
+.namPnams:hover
   color: #ef5b70
   text-decoration: none
 
-.namPnams 
+.namPnams
   color: #c4c4c4
   font-size: 16px
   font-weight: bold
   padding: 5px
 
-.namPnams_focus 
+.namPnams_focus
   color: #ef5b70
 
-.vievAll 
+.vievAll
   border-radius: 3px
   border: 1px solid #ef5b70
   background-color: #ffffff
@@ -1063,21 +1180,21 @@ input
   text-align: center
   line-height: 44px
 
-.vievAll:hover 
+.vievAll:hover
   text-decoration: none
   color: #ef5b70
 
-.logo:hover 
+.logo:hover
   text-decoration: none
   color: black
 
-.menu__list 
+.menu__list
   position: relative
 
-.menu__list:hover 
+.menu__list:hover
   display: flex
 
-.drop 
+.drop
   border-radius: 5px
   background-color: #ffffff
   padding: 12px 20px
@@ -1086,7 +1203,7 @@ input
   position: absolute
   top: 46px
 
-.drop__h3 
+.drop__h3
   color: #232323
   font-size: 14px
   font-weight: 400
@@ -1098,7 +1215,7 @@ input
   margin-bottom: 8px
   margin-top: 8px
 
-.browse_drop__h3 
+.browse_drop__h3
   color: #232323
   font-size: 14px
   font-weight: 400
@@ -1110,7 +1227,7 @@ input
   margin-bottom: 8px
   margin-top: 8px
 
-.drop::before 
+.drop::before
   content: ''
   display: block
   width: 10px
@@ -1123,41 +1240,41 @@ input
   border-top: 1px solid #e8e8e8
   border-left: 1px solid #e8e8e8
 
-.drop__ul 
+.drop__ul
   list-style-type: none
   text-align: left
 
-.drop__link 
+.drop__link
   color: #646464
   font-size: 14px
   font-weight: 400
   line-height: 28px
   letter-spacing: 0.35px
 
-.drop__link:hover 
+.drop__link:hover
   color: #f16d7f
 
-.drop__flex 
+.drop__flex
   margin-right: 46px
 
-.drop__flex:last-child 
+.drop__flex:last-child
   margin-right: 0
 
-.menu__list 
+.menu__list
   position: relative
 
-.menu__list:hover .drop 
+.menu__list:hover .drop
   display: flex
 
-.drop_last 
+.drop_last
   left: auto
   right: 0
 
-.drop_last::before 
+.drop_last::before
   left: auto
   right: 35px
 
-.sort_byName 
+.sort_byName
   border: 1px solid #ebebeb
   background-color: #ffffff
   color: #6f6e6e
@@ -1172,7 +1289,7 @@ input
   align-items: center
   position: relative
 
-.sort_show 
+.sort_show
   border: 1px solid #ebebeb
   background-color: #ffffff
   color: #6f6e6e
@@ -1187,13 +1304,13 @@ input
   align-items: center
   position: relative
 
-.sort_show:hover .drop_boxx 
+.sort_show:hover .drop_boxx
   display: block
 
-.sort_byName:hover .drop_boxx 
+.sort_byName:hover .drop_boxx
   display: block
 
-.drop_boxx 
+.drop_boxx
   position: absolute
   top: 30px
   background-color: #fff
@@ -1201,33 +1318,33 @@ input
   border: 1px solid #ebebeb
   left: 0
 
-.drop_li_a 
+.drop_li_a
   color: #6f6e6e
   font-size: 14px
   font-weight: 400
   display: block
   padding: 3px 15px
 
-.drop_li_a:hover 
+.drop_li_a:hover
   color: #f16d7f
   background-color: #F0F0F0
 
-.carusel_line 
+.carusel_line
   background-color: #F7F7F7
   display: flex
   justify-content: center
   align-items: center
 
-.carusel_box 
+.carusel_box
   width: 1140px
 
-.d-block 
+.d-block
   margin: 0 auto
 
-#carouselExampleControls 
+#carouselExampleControls
   background-color: #F7F7F7
 
-.SP__center_conteiner 
+.SP__center_conteiner
   width: 1140px
   height: 730px
   background-color: #fff
@@ -1238,15 +1355,15 @@ input
   flex-direction: column
   align-items: center
 
-.SP__center_Cbox 
+.SP__center_Cbox
   position: relative
 
-.SP_Centr 
+.SP_Centr
   margin: 0 auto
   display: flex
   width: 1140px
 
-.SP__h2_title_r 
+.SP__h2_title_r
   color: #f16d7f
   font-size: 14px
   font-weight: 700
@@ -1254,14 +1371,14 @@ input
   margin-top: 75px
   margin-bottom: 14px
 
-.SP__h2_title 
+.SP__h2_title
   color: #4d4d4d
   font-size: 18px
   font-weight: 400
   text-transform: uppercase
   margin-top: 17px
 
-.SP__h2_text 
+.SP__h2_text
   color: #5e5e5e
   font-size: 14px
   font-weight: 300
@@ -1269,72 +1386,72 @@ input
   text-align: center
   margin-top: 70px
 
-.SP__mat_des_box 
+.SP__mat_des_box
   width: 334px
   display: flex
   justify-content: space-between
   margin-top: 30px
 
-.SP__mat_box_title 
+.SP__mat_box_title
   color: #b9b9b9
   font-size: 14px
   font-weight: 700
   text-transform: uppercase
 
-.SP__mat_box_text 
+.SP__mat_box_text
   font-size: 14px
   font-weight: 700
   text-transform: uppercase
   color: #2f2f2f
 
-.SP__price 
+.SP__price
   color: #ef5b70
   font-size: 24px
   font-weight: 700
   margin-top: 37px
 
-.SP_lineW 
+.SP_lineW
   width: 642px
   border: 1px solid #eaeaea
   margin-top: 45px
 
-.SP__select_line 
+.SP__select_line
   display: flex
   justify-content: space-between
   width: 540px
   margin-top: 65px
 
-.choose_C_title 
+.choose_C_title
   color: #2f2f2f
   font-size: 14px
   font-weight: 700
   text-transform: uppercase
 
-.choose_S_title 
+.choose_S_title
   color: #2f2f2f
   font-size: 14px
   font-weight: 700
   text-transform: uppercase
 
-.choose_Q_title 
+.choose_Q_title
   color: #2f2f2f
   font-size: 14px
   font-weight: 700
   text-transform: uppercase
 
-.choose_C_box 
+.choose_C_box
   width: 144px
 
-.choose_C_box:hover .drop__choose_C_sel 
+.choose_C_box:hover .drop__choose_C_sel
   display: block
 
-.choose_S_box 
+.choose_S_box
   width: 144px
 
-.choose_Q_box 
+.choose_Q_box
   width: 144px
 
-.choose_C_sel 
+.choose_C_sel
   width: 144px
   height: 35px
   border: 1px solid #eaeaea
@@ -1345,7 +1462,7 @@ input
   margin-top: 15px
   position: relative
 
-.choose_S_sel 
+.choose_S_sel
   color: #bcbcbc
   font-size: 13px
   font-weight: 400
@@ -1360,7 +1477,7 @@ input
   justify-content: space-between
   align-items: center
 
-.choose_Q_sel 
+.choose_Q_sel
   color: #bcbcbc
   font-size: 14px
   font-weight: 400
@@ -1371,18 +1488,18 @@ input
   line-height: 35px
   margin-top: 15px
 
-.img__color 
+.img__color
   margin: 10px 10px 15px
 
-.pad 
+.pad
   padding-left: 65px
 
-.choose_S_sel_box 
+.choose_S_sel_box
   display: flex
   justify-content: space-between
   align-items: center
 
-.SP__add_toCard 
+.SP__add_toCard
   border: 1px solid #ef5b70
   width: 537px
   height: 55px
@@ -1390,21 +1507,21 @@ input
   text-align: center
   margin-top: 30px
 
-.SP__add_toCard_text 
+.SP__add_toCard_text
   color: #ef5b70
   font-size: 16px
   font-weight: 700
   padding-left: 15px
 
-.SP__center_conteinerAlt 
+.SP__center_conteinerAlt
   height: 730px
 
-.drop__choose_C_sel 
+.drop__choose_C_sel
   position: absolute
   width: 144px
   display: none
 
-.drop__choose_C_sel ul li 
+.drop__choose_C_sel ul li
   list-style-type: none
   background-color: #fff
   color: #bcbcbc
@@ -1414,23 +1531,23 @@ input
   width: 144px
   height: 25px
 
-.dis_blok 
+.dis_blok
   display: block
   padding: 5px
 
-.dis_blok:hover 
+.dis_blok:hover
   text-decoration: none
   color: #f16d7f
 
-.drop__choose_S_sel 
+.drop__choose_S_sel
   position: absolute
   width: 144px
   display: none
 
-.choose_S_box:hover .drop__choose_S_sel 
+.choose_S_box:hover .drop__choose_S_sel
   display: block
 
-.drop__choose_S_sel ul li 
+.drop__choose_S_sel ul li
   list-style-type: none
   background-color: #fff
   color: #bcbcbc
@@ -1440,17 +1557,19 @@ input
   width: 144px
   height: 25px
 
-.you_may_like_line 
+.you_may_like_line
   width: 1140px
   margin: 20px auto 0
+
   &:hover .you_may_like_title
     font-size: 36px
     color: #EF5B70
+
   &:hover .product_box
     transform: scale(1.08)
 
 
-.you_may_like_title 
+.you_may_like_title
   color: #4d4d4d
   font-size: 24px
   font-weight: 400
@@ -1459,12 +1578,12 @@ input
   margin-bottom: 72px
   transition: all $transitionTime
 
-.you_may_like_conteiner 
+.you_may_like_conteiner
   width: 1140px
   display: flex
   justify-content: space-between
 
-.browse_dropDown 
+.browse_dropDown
   position: absolute
   left: 0
   background-color: #ffffff
@@ -1474,10 +1593,10 @@ input
   padding: 5px 20px 20px
   display: none
 
-.browse_dropDown_flex 
+.browse_dropDown_flex
   width: 150px
 
-.header_button_drop 
+.header_button_drop
   position: absolute
   width: 130px
   border-radius: 3px
@@ -1486,7 +1605,7 @@ input
   color: #F16D7F
   display: none
 
-.SP_video 
+.SP_video
   object-fit: cover
 
 .checkOutLine
@@ -1518,11 +1637,13 @@ input
 
 .checkRegisterBox
   width: 550px
+
   &__title
     height: 11px
     color: #222222
     font-weight: 400
     text-transform: uppercase
+
   &__text
     color: #b3b2b2
     font-size: 13px
@@ -1535,6 +1656,7 @@ input
   font-size: 12px
   font-weight: 400
   text-transform: uppercase
+
   input
     margin-right: 15px
     margin-top: 30px
@@ -1546,6 +1668,7 @@ input
   font-size: 12px
   font-weight: 400
   text-transform: uppercase
+
   input
     margin-right: 15px
     margin-top: 20px
@@ -1554,11 +1677,13 @@ input
 
 .alreadyRegistedBox
   width: 550px
+
   &__title
     color: #222222
     font-size: 13px
     font-weight: 400
     text-transform: uppercase
+
   &__text
     color: #b3b2b2
     margin-top: 15px
@@ -1572,6 +1697,7 @@ input
     font-size: 12px
     font-weight: 400
     text-transform: uppercase
+
   &__password
     color: #222222
     margin-top: 23px
@@ -1588,6 +1714,7 @@ input
     font-weight: 400
     padding-left: 20px
     padding-right: 20px
+
     &:focus
       background-color: #eee
       font-size: 16px
@@ -1603,6 +1730,7 @@ input
     font-weight: 400
     padding-left: 20px
     padding-right: 20px
+
     &:focus
       background-color: #eee
       font-size: 16px
@@ -1618,6 +1746,7 @@ form em
   font-weight: 400
   text-transform: uppercase
   margin-top: 33px
+
   &__text
     color: #b3b2b2
     font-size: 13px
@@ -1646,6 +1775,7 @@ form em
 .logInLine
   display: flex
   margin-top: 32px
+
   &__logIn
     padding: 19px 81px 19px 55px
     border: 1px solid #eaeaea
@@ -1654,6 +1784,7 @@ form em
     font-size: 14px
     font-weight: 700
     text-transform: uppercase
+
   &__ForgotPassword
     padding: 24px 32px 14px 32px
     color: #222222
@@ -1712,6 +1843,285 @@ form em
 
 .shadowBox
   transition: $transitionTime
-  &:hover 
+
+  &:hover
     box-shadow: 1px 1px 2px 1px #6B6B6B
 
+  &:active
+    box-shadow: none
+
+.ProductDetails
+  width: 1600px
+  margin: 0 auto
+
+  &__conteiner
+    width: 1140px
+    margin: 0 auto
+
+  &__title
+    height: 80px
+    line-height: 80px
+    display: flex
+    justify-content: space-between
+
+  &__titleLine
+    border-bottom: 1px solid #eaeaea
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &__titlePrice
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 600px
+
+    & span
+      color: #222222
+      font-size: 13px
+      font-weight: 700
+      text-transform: uppercase
+      letter-spacing: -0.2px
+
+  &__products
+    height: 160px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    border-bottom: 1px solid #eaeaea
+
+    &_box
+      width: 280px
+      display: flex
+
+    &_boxValue
+      display: flex
+      justify-content: flex-end
+      align-items: center
+
+  &__buttonLine
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 45px
+
+    & a
+      color: #4a4a4a
+      font-size: 14px
+      font-weight: 700
+      text-transform: uppercase
+      padding: 20px 38px 20px 38px
+      border: 1px solid #eaeaea
+
+.PD
+  &__img
+    width: 100px
+    height: 115px
+    object-fit: cover
+
+  &__box
+    height: 80px
+    width: 300px
+    margin-left: 21px
+
+    &_text
+      margin-top: 38px
+
+    &_title
+      color: #222222
+      font-size: 13px
+      font-weight: 400
+      text-transform: uppercase
+      margin-top: 13px
+      width: 300px
+
+    &_textC
+      color: #575757
+      font-size: 13px
+      font-weight: 400
+
+      &Value
+        color: #6f6e6e
+        font-size: 13px
+        font-weight: 300
+
+  &__price
+    color: #656565
+    font-size: 13px
+    font-weight: 400
+    margin-right: 60px
+    width: 100px
+    text-align: center
+
+  &__quantity
+    margin-right: 55px
+
+    &_input
+      width: 54px
+      height: 30px
+      text-align: center
+      color: #656565
+      font-size: 13px
+      font-weight: 400
+      border: 1px solid #eaeaea
+
+  &__shipping
+    color: #656565
+    font-size: 13px
+    font-weight: 400
+    text-transform: uppercase
+    margin-right: 30px
+    width: 100px
+    text-align: center
+
+  &__subtotal
+    color: #656565
+    font-size: 13px
+    font-weight: 400
+    margin-right: 60px
+    width: 100px
+    text-align: center
+
+  &__action
+    color: #c0c0c0
+    font-size: 16px
+    font-weight: 400
+    text-transform: uppercase
+    width: 45px
+    text-align: center
+
+.billing
+  display: flex
+  justify-content: space-between
+  margin-top: 63px
+
+  &__box
+    width: 355px
+
+    &_title
+      color: #222222
+      font-size: 16px
+      font-weight: 700
+      text-transform: uppercase
+
+#billing__cityAdress
+  margin-top: 22px
+  width: 319px
+  height: 45px
+  border: 1px solid #eaeaea
+  padding-right: 18px
+  padding-left: 18px
+
+  &:focus
+    background-color: #eaeaea
+
+.billing__stateAdress
+  margin-top: 22px
+  width: 319px
+  height: 45px
+  border: 1px solid #eaeaea
+  padding-right: 18px
+  padding-left: 18px
+
+  &:focus
+    background-color: #eaeaea
+
+#billing__zipAdress
+  margin-top: 22px
+  width: 319px
+  height: 45px
+  border: 1px solid #eaeaea
+  padding-right: 18px
+  padding-left: 18px
+
+  &:focus
+    background-color: #eaeaea
+
+.buttonGetQuote
+  margin-top: 25px
+  display: inline-block
+  color: #4a4a4a
+  font-size: 11px
+  font-weight: 700
+  text-transform: uppercase
+  padding: 12px 15px 12px 15px
+  border: 1px solid #eaeaea
+
+.coupon
+  &__box
+    width: 355px
+
+  &__title
+    color: #222222
+    font-size: 16px
+    font-weight: 700
+    text-transform: uppercase
+
+  &__text
+    color: #000000
+    margin-top: 28px
+    font-size: 14px
+    font-weight: 300
+
+.total__box
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 360px
+  height: 214px
+  background-color: #f5f3f3
+
+  &_grand
+    width: 273px
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+
+  &_line
+    background-color: #e2e2e2
+    width: 275px
+    height: 1px
+    margin-top: 22px
+
+  &_grandSub
+    margin-top: 40px
+    text-align: end
+
+    &Title
+      color: #4a4a4a
+      font-size: 11px
+      font-weight: 400
+      text-transform: uppercase
+
+    &Price
+      color: #4a4a4a
+      font-size: 11px
+      font-weight: 400
+      text-transform: uppercase
+      margin-left: 20px
+
+  &_grandTotal
+    margin-top: 14px
+    text-align: end
+
+    &Title
+      color: #222222
+      font-size: 16px
+      font-weight: 700
+      text-transform: uppercase
+
+    &Price
+      font-size: 16px
+      font-weight: 700
+      text-transform: uppercase
+      color: #f16d7f
+      margin-left: 20px
+
+.proceedButton
+  color: #ffffff
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+  background-color: #F16D7F
+  padding: 18px 42px 18px 42px
+  margin-top: 17px
