@@ -602,6 +602,7 @@ a {
   top: 45px;
   left: -15px;
   background-color: #ffffff;
+  z-index: 55555;
 }
 .dropBag__product {
   display: flex;
